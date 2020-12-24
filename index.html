@@ -11,7 +11,23 @@
         <h1>Library</h1>
      <button id="addBook">+</button>
     </div>  
-    <main><div class="popupForm"><button class="closeButton">X</button></div></main>
+    <main><div class="popupForm">
+        <div id="buttonContainer"><button class="closeButton">X</button></div>
+        <form id="form">
+            <label for="fname">Book Name:</label>
+            <input type="text" id="bName"    ><br>
+            <label for="lname">Book Author:</label>
+            <input type="text" id="bAuthor"   ><br>
+            <label for="lname">Page Number:</label>
+            <input type="text" id="pNumber"><br><br>
+            <input type="button" id="formButton" value="Submit">
+          </form>
+    
+    
+    </div>
+    <div id="bookList"></div>
+
+    </main>
     
     <script src="script.js"></script>
 </body>
